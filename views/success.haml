@@ -1,0 +1,14 @@
+%h1= @message
+%br/
+%h2 Access Token:
+%p= @access_token
+%br/
+%h2 Email info:
+%p= @email
+%br/
+%h2 Refresh Token:
+%p= @refresh_token
+%br/
+%h1 All tokens have been saved
+%br/
+%a{:href => "/gmailForm"} extract .csv from gmail
